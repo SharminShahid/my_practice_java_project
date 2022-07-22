@@ -17,10 +17,13 @@ public class VariablePractice {
         System.out.println(x);
         System.out.println(a); // inorder to use the class variable inside a static method we have to make the class
                                // variable static.
+        VariablePractice va = new VariablePractice(); //creating object of non-static variable to call it inside a static method.
+        va.num = 50;
 
     }
     public void method(){
         this.num = 80; // using this keyword to declare the value of global variable inside a non-static method.
+
     }
 
 }

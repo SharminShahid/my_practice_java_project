@@ -6,8 +6,14 @@ public class RunMethodWithoutParameter {
     //object syntax: Classname objectName = new classname
 
     public static void main(String[] args){
-        MethodWithoutParameter mwp = new MethodWithoutParameter();
-        mwp.myMethod();
+       // MethodWithoutParameter mwp = new MethodWithoutParameter();
+       // mwp.myMethod();
+
+        //no need to create the object as MethodWithoutParameter is a static method.
+        //we can call it with class name only.
+
+        MethodWithoutParameter.myMethod();
+
     }
 
 }

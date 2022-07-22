@@ -1,7 +1,7 @@
 package encapsulation;
 
 public class Employee {
-    //Encapsulation is done to hive sensitive data from users.
+    //Encapsulation is done to hide sensitive data from users.
     //we have to create get method and set method to access to this class
     private String name;
     private int age;

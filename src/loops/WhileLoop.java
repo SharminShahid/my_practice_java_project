@@ -12,6 +12,15 @@ public class WhileLoop {
             System.out.println(i);
             i++;
         }
+        //practice: print 1 to 20
+        int a = 1; // Initialization
+        while(a<= 20){ //condition
+            System.out.println(a);
+            a = a+1; // Incremental or decremental part can be written in this way too.
+                     // This part is very important in while loop.
+
+            //Disadvantage of while loop: It will become infinite loop if we don't mention the incremental or decremental part.
+        }
 
 
     }

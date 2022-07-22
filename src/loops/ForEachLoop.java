@@ -9,6 +9,13 @@ public class ForEachLoop {
 
         }
 
+        String[] days = {"sunday,monday,tuesday,wednesday,thursday,friday"};
+        for (String weekdays:days
+             ) {
+            System.out.println(weekdays);
+
+        }
+
 
         }
     }

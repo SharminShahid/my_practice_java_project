@@ -5,6 +5,7 @@ public class StringMethods {
 
 
         //String is a non-primitive variable that contains characters.
+        //String is a class
         //syntax:
         // String type String name = "String value";
 
@@ -31,7 +32,7 @@ public class StringMethods {
         // charAt returns the character of given index
         String s = "today is Friday";
         int result = s.charAt(6);
-        System.out.println("charAt :" +s.charAt(6));
+        System.out.println("charAt :" +result);
 
         //toUpperCase converts the string to uppercase
         String upper = s.toUpperCase();
@@ -67,6 +68,8 @@ public class StringMethods {
         System.out.println("The \"sun\" is the main source of light"); // backslash\ is an escape character.
         System.out.println("\'sun\'");
         System.out.println();
+
+
 
 
 

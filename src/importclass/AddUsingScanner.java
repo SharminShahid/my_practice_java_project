@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class AddUsingScanner {
     public static void main(String[] args){
-        int a;
+       /* int a;
         int b;
         int sum;
         Scanner num = new Scanner(System.in);
@@ -15,6 +15,16 @@ public class AddUsingScanner {
         b = num.nextInt();
 
         sum = a + b;
-        System.out.println(sum);
+        System.out.println(sum);*/
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter number");
+        int userInput = sc.nextInt();
+
+        Scanner scan = new Scanner(System.in);
+        System.out.println("enter name");
+        String user_Name = scan.nextLine();
+
+
     }
 }

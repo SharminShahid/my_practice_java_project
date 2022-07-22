@@ -45,5 +45,21 @@ public class Conditions {
         else{
             System.out.println("else block");
         }
+
+        // Question: write  a logic to find out the highest number
+        //using nested if else and comparison operator
+        int a1 = 300;
+        int b1 = 200;
+        int c1 = 500;
+
+        if (a1>b1 & a1>c1){
+            System.out.println("a1 is highest");
+        } else if(b1>c1 & b1>a1){
+            System.out.println("b1 is highest");
+        }else{
+            System.out.println("c1 is highest");
+        }
+
+
     }
 }

@@ -8,4 +8,12 @@ public class MethodOverloading {
     public float plusmethod(float a, float b){
         return a + b;
     }
+    public int plusMethod(int x,int y,int z){
+        x = 30;
+        y = 40;
+        z = 10;
+        int z1= x+y+z;
+        System.out.println(z1);
+        return z1;
+    }
 }
