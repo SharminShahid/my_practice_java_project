@@ -20,6 +20,9 @@ public class ForLoop {
         for (j = 10; j>=1;j--){
             System.out.println(j);
         }
+        /*for (int num = 0; num<30;num++){
+            System.out.println(num);
+        }*/
 
 
     }

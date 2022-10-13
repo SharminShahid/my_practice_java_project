@@ -21,6 +21,11 @@ public class WhileLoop {
 
             //Disadvantage of while loop: It will become infinite loop if we don't mention the incremental or decremental part.
         }
+       /* int h = 0;
+        while (h<=40){
+            System.out.println(h);
+            h++;
+        }*/
 
 
     }

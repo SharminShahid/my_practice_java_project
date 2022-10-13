@@ -13,7 +13,12 @@ public class StringMethods {
         //declaration without using new operator--
        // String str = "Hello";
         //declaration using new operator--
-       // String str1 = new String("Hello");
+        String str1 = new String("Hello");
+        System.out.println(str1);
+        String str = "Hi all";
+        System.out.println(str);
+        String str2 = str1.concat(str);
+        System.out.println(str2);
 
         //String Methods
 

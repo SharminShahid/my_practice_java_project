@@ -69,8 +69,15 @@ public class PracticeArray {
         for(int day=0; day<days.length; day++){
             System.out.println(days[day]);
         }
+       /* int[] array = new int[2];
+        array[0] = 23;
+        array[1] = 24;
 
+        for(int j1 = 0; j1<array.length; j1++){
+            System.out.println(array[j1]);
+        }*/
 
 
     }
+
 }

@@ -15,6 +15,16 @@ public class ForEachLoop {
             System.out.println(weekdays);
 
         }
+        String[] name = new String[3];
+        name[0] = "moly";
+        name[1] = "dany";
+        name[2] = "paul";
+
+        for (String names:name
+             ) {
+            System.out.println(names);
+
+        }
 
 
         }
